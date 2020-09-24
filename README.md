@@ -129,4 +129,4 @@ Mayank has won the game.
 Compilation : gradlew clean build
 Execution : java -jar <path_to/bhn.jar 
 ```
-
+jar file can be found in build/libs/
