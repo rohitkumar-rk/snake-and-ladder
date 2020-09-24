@@ -21,7 +21,7 @@ The application should take input of following things :
 
 The application must print each movement of each player in following format 
 
-<Plaer-Name> rolled a dice and got <Number on dice>  and move from <initial position> to <new positin>
+```Player-Name``` rolled a dice and got ```Number on dice```  and move from ```initial position``` to ```new positin```
 
 Print winner at the end
 
