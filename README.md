@@ -2,7 +2,7 @@
 
 ## Problem Overview
 
-Create a Snake and Ladder  Application
+Create a console based Snake and Ladder  Application
 
 ## Requirements
 
@@ -24,6 +24,15 @@ The application must print each movement of each player in following format
 ```Player-Name``` rolled a dice and got ```Number on dice```  and move from ```initial position``` to ```new positin```
 
 Print winner at the end
+
+## Problem Flow
+
+1. Take all the necessary inputs
+2. Initially all players are outside board i.e. at position 0
+3. All players are inside a queue and game is started by player 1
+4. Each players rolls a die and moves on board
+5. If any player wins, stop game and print result ( A player wins when it has reached 100)
+
 
 ## Sample Input 
 
