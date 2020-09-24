@@ -3,6 +3,9 @@ package com.bhn.snakeandladder.models;
 public class Player {
 
     private String playerName;
+
+    /*Player id is an integer value ranging from 1 to n
+    *  where n is the no. of players */
     private int playerId;
 
     public Player(String playerName, int playerId) {
