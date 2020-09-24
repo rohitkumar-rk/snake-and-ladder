@@ -15,6 +15,24 @@ public class PlayerServiceTest extends TestCase {
 
     public void testMovePlayer() {
 
+        List<Ladder> ladderList = new ArrayList<>();
+        ladderList.add(new Ladder(5,50));
+        ladderList.add(new Ladder(20,90));
+
+        List<Snake> snakeList = new ArrayList<>();
+        snakeList.add(new Snake(85,10));
+        snakeList.add(new Snake(65,23));
+
+        Board  board = new Board(ladderList, snakeList);
+
+        Player player = new Player("Rohit" , 1);
+
+        board.getPlayerPositionMap().put(1, 15);
+        playerService.movePlayer(player, 5, board);;
+
+        int pos = board.getPlayerPositionMap().get(1);
+        assertEquals(pos, 90);
+
     }
 
     public void testHasPlayerWon() {

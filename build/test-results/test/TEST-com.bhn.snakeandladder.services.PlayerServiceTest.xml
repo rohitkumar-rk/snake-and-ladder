@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bhn.snakeandladder.services.PlayerServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-24T17:08:55" hostname="ROHIT" time="0.013">
+<testsuite name="com.bhn.snakeandladder.services.PlayerServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-24T17:23:54" hostname="ROHIT" time="0.172">
   <properties/>
-  <testcase name="testGetNewPosition" classname="com.bhn.snakeandladder.services.PlayerServiceTest" time="0.013"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testHasPlayerWon" classname="com.bhn.snakeandladder.services.PlayerServiceTest" time="0.002"/>
+  <testcase name="testGetNewPosition" classname="com.bhn.snakeandladder.services.PlayerServiceTest" time="0.002"/>
+  <testcase name="testMovePlayer" classname="com.bhn.snakeandladder.services.PlayerServiceTest" time="0.164"/>
+  <system-out><![CDATA[Rohit rolled a dice and got 5 and move from 15 to 90
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
