@@ -2,6 +2,7 @@ package com.bhn.snakeandladder.models;
 
 public class Snake {
 
+    /*For snake, start is always greater than end */
     private int start;
     private int end;
 

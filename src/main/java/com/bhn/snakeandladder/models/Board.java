@@ -10,6 +10,9 @@ public class Board {
 
     private List<Ladder> ladders;
     private List<Snake> snakes;
+
+    //This map stores position of all players on board
+    // maps player id -> player position
     private Map<Integer, Integer> playerPositionMap;
 
     public Board(List<Ladder> ladders, List<Snake> snakes) {
