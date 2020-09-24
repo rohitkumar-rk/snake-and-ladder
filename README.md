@@ -6,7 +6,7 @@ Create a Snake and Ladder  Application
 
 ## Requirements
 
-jdk 11
+jdk 11 <br>
 gradle 5.1 and above
 
 ## Input Format
@@ -128,6 +128,5 @@ Mayank has won the game.
 ```
 Compilation : gradlew clean build
 Execution : java -jar <path_to/bhn.jar 
-
-
+```
 
